@@ -43,3 +43,27 @@ body {
     padding: 0;
     width: 100vw;
 }
+
+.info {
+    height: 30vh;
+    width: 100vw;
+}
+
+.info table {
+    border-collapse: collapse;
+}
+
+.info td {
+    background-color: rgba(0, 0, 0, 0.15);
+    color: black;
+    font-size: 3vh;
+    height: 10vh;
+    padding: 0;
+    width: 100vw;
+}
+
+.info a {
+    color: black;
+    font-size: 2.5vh;
+    text-decoration: none;
+}
