@@ -1,2 +1,3 @@
-# js-quest-everyday
-Quest Everyday
+# Quest Everyday
+
+### [Show me a quest!](https://tinyurl.com/questeveryday)
