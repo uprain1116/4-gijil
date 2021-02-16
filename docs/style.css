@@ -1,3 +1,28 @@
 body {
     font-family: 'Roboto';
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.title {
+    height: 10vh;
+    width: 100vw;
+}
+
+.title table {
+    border-collapse: collapse;
+}
+
+.title td {
+    background-color: rgba(0, 0, 0, 0.15);
+    height: 10vh;
+    padding: 0;
+    width: 100vw;
+}
+
+.title a {
+    color: black;
+    font-size: 3.5vh;
+    text-decoration: none;
 }
