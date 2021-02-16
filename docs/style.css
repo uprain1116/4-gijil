@@ -26,3 +26,20 @@ body {
     font-size: 3.5vh;
     text-decoration: none;
 }
+
+.quest {
+    height: 60vh;
+    width: 100vw;
+}
+
+.quest table {
+    border-collapse: collapse;
+}
+
+.quest td {
+    color: black;
+    font-size: 10vmin;
+    height: 60vh;
+    padding: 0;
+    width: 100vw;
+}
