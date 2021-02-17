@@ -1,13 +1,4 @@
-function setBackgroundColor() {
-    var red = Math.floor(Math.random() * 128) + 128;
-    var green = Math.floor(Math.random() * 128) + 128;
-    var blue = Math.floor(Math.random() * 128) + 128;
-    var color = "rgb(" + red + ", " + green + ", " + blue + ")";
-    document.body.style.backgroundColor = color;
-}
-
-function showQuest() {
-    var quests = [
+var quests = [
     "10분 명상하기",
     "30분 낮잠 자기",
     "5분 명상하기",
@@ -25,9 +16,9 @@ function showQuest() {
     "가장 먼저 떠오르는<br>영화 보기",
     "가장 먼저 떠오르는<br>음식 만들기",
     "가장 먼저 떠오르는<br>책 읽기",
+    "가장 먼저 보이는<br>책 읽기",
     "가장 먼저<br>보이는 것 그리기",
     "가장 먼저<br>보이는 재료로<br>음식 만들기",
-    "가장 먼저 보이는<br>책 읽기",
     "가장 좋아하는 것<br>그리기",
     "가장 좋아하는<br>노래 부르기",
     "가장 좋아하는<br>영화 보기",
@@ -128,8 +119,20 @@ function showQuest() {
     "핸드폰 배경화면<br>바꾸기",
     "핸드폰 잠금 화면<br>바꾸기",
     "<a href=\"https://forms.gle/BvpQbxRzphzorpwU8\">새로운 퀘스트<br>제안하기</a>"
-    ];
-    var index = Math.floor(Math.random() * quests.length);
+];
+var length = quests.length;
+
+function setBackgroundColor() {
+    var red = Math.floor(Math.random() * 128) + 128;
+    var green = Math.floor(Math.random() * 128) + 128;
+    var blue = Math.floor(Math.random() * 128) + 128;
+    var color = "rgb(" + red + ", " + green + ", " + blue + ")";
+    document.body.style.backgroundColor = color;
+}
+
+function showQuest() {
+    setBackgroundColor();
+    var index = Math.floor(Math.random() * length);
     document.getElementById("quest").innerHTML = quests[index];
 }
 
