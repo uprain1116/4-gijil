@@ -11,7 +11,7 @@
             <div class="title">
                 <table>
                     <tr>
-                        <td onclick="toggleFullscreen()">Quest Everyday</td>
+                        <td id="title" onclick="toggleFullscreen()">전체 화면 전환하기</td>
                     </tr>
                 </table>
             </div>
@@ -19,7 +19,9 @@
                 <table>
                     <tr>
                         <td id="quest">
-                            <a href="https://www.enablejavascript.io/kw">자바스크립트<br>활성화하기</a>
+                            <noscript>
+                                <a href="https://www.enablejavascript.io/kw">자바스크립트<br>활성화하기</a>
+                            </noscript>
                         </td>
                     </tr>
                 </table>
@@ -27,10 +29,10 @@
             <div class="info">
                 <table>
                     <tr>
-                        <td onclick="showQuest()">#questeveryday</td>
+                        <td id="tag" onclick="showQuest()">새로운 퀘스트 보기</td>
                     </tr>
                     <tr>
-                        <td onclick="copyLink()">tinyurl.com/questeveryday</td>
+                        <td id="link" onclick="copyLink()">링크 주소 복사하기</td>
                     </tr>
                     <tr>
                         <td>

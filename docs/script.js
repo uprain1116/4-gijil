@@ -1,3 +1,4 @@
+var initialized;
 var quests = [
     "10분 명상하기",
     "30분 낮잠 자기",
@@ -130,7 +131,18 @@ function setBackgroundColor() {
     document.body.style.backgroundColor = color;
 }
 
+function removeInstructions() {
+    document.getElementById("title").innerHTML = "Quest Everyday";
+    document.getElementById("tag").innerHTML = "#questeveryday";
+    document.getElementById("link").innerHTML = "tinyurl.com/questeveryday";
+}
+
 function showQuest() {
+    if (!initialized) {
+        initialized = true;
+        removeInstructions();
+    }
+
     setBackgroundColor();
     var index = Math.floor(Math.random() * length);
     document.getElementById("quest").innerHTML = quests[index];
@@ -159,4 +171,4 @@ function copyLink() {
 }
 
 setBackgroundColor();
-showQuest();
+document.getElementById("quest").innerHTML = "더 나은 나를 위해<br>행복을 가져다주는<br>소소한 일일 퀘스트";
