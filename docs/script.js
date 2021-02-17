@@ -132,7 +132,6 @@ function setBackgroundColor() {
 }
 
 function removeInstructions() {
-    document.getElementById("title").innerHTML = "Quest Everyday";
     document.getElementById("tag").innerHTML = "#questeveryday";
     document.getElementById("link").innerHTML = "tinyurl.com/questeveryday";
 }
@@ -146,14 +145,6 @@ function showQuest() {
     setBackgroundColor();
     var index = Math.floor(Math.random() * length);
     document.getElementById("quest").innerHTML = quests[index];
-}
-
-function toggleFullscreen() {
-    if (!document.fullscreenElement) {
-        document.documentElement.requestFullscreen();
-    } else if (document.exitFullscreen) {
-        document.exitFullscreen();
-    }
 }
 
 function copyLink() {
