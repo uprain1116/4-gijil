@@ -136,5 +136,13 @@ function showQuest() {
     document.getElementById("quest").innerHTML = quests[index];
 }
 
+function toggleFullscreen() {
+    if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen();
+    } else if (document.exitFullscreen) {
+        document.exitFullscreen();
+    }
+}
+
 setBackgroundColor();
 showQuest();
