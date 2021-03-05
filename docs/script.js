@@ -162,4 +162,4 @@ function copyLink() {
 }
 
 setBackgroundColor();
-document.getElementById("quest").innerHTML = "더 나은 나를 위해<br>행복을 가져다주는<br>소소한 일일 퀘스트";
+document.getElementById("quest").innerHTML = "소소하지만<br>확실한 행복을<br>가져다주는<br>일일 퀘스트";
