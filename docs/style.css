@@ -50,6 +50,10 @@ body {
     border-collapse: collapse;
 }
 
+.info .clickable {
+    cursor: pointer;
+}
+
 .info td {
     background-color: rgba(0, 0, 0, 0.15);
     color: black;
