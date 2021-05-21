@@ -16,7 +16,7 @@ body {
 }
 
 .title td {
-    background-color: rgba(0, 0, 0, 0.20);
+    background-color: rgba(0, 0, 0, 0.15);
     color: black;
     font-size: 3.5vh;
     height: 10vh;
@@ -54,12 +54,8 @@ body {
     cursor: pointer;
 }
 
-.info .clickable:hover {
-    background-color: rgba(0, 0, 0, 0.15);
-}
-
 .info td {
-    background-color: rgba(0, 0, 0, 0.10);
+    background-color: rgba(0, 0, 0, 0.15);
     color: black;
     font-size: 3vh;
     height: 10vh;
