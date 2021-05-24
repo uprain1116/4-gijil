@@ -137,17 +137,11 @@ function showQuest() {
 }
 
 function copyLink() {
-    const text = document.createElement("textarea");
-    text.value = "tinyurl.com/questeveryday";
-    text.setAttribute("readonly", "");
-    text.style.position = "absolute";
-    text.style.left = "-9999px";
-    document.body.appendChild(text);
-    text.select();
-    text.setSelectionRange(0, 99999);
-    document.execCommand("copy");
-    document.body.removeChild(text);
-    alert("주소를 복사했습니다");
+    navigator.clipboard.writeText("tinyurl.com/questeveryday").then(function () {
+        alert("주소를 복사했습니다");
+    }, function () {
+        alert("주소를 복사하지 못했습니다");
+    });
 }
 
 setBackgroundColor();
