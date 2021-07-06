@@ -140,7 +140,7 @@ function showQuest() {
 }
 
 function copyLink() {
-    navigator.clipboard.writeText("tinyurl.com/questeveryday").then(function () {
+    navigator.clipboard.writeText("https://tiny.one/11quest").then(function () {
         alert("주소를 복사했습니다");
     }, function () {
         alert("주소를 복사하지 못했습니다");
