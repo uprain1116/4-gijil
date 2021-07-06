@@ -1,4 +1,4 @@
-# Quest Everyday
+# 일일 퀘스트
 
 ### [새로운 퀘스트 보기](https://tinyurl.com/questeveryday)
 
