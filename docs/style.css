@@ -1,0 +1,105 @@
+body {
+  font-family: "Noto Sans KR";
+  margin: 0;
+  text-align: center;
+  user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0;
+  width: 100vw;
+}
+
+div {
+  width: 100vw;
+}
+
+.dark {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.no-decoration {
+  color: black;
+  text-decoration: none;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.height-10 {
+  height: 10vh;
+}
+
+.height-20 {
+  height: 20vh;
+}
+
+.height-30 {
+  height: 30vh;
+}
+
+.height-40 {
+  height: 40vh;
+}
+
+.height-60 {
+  height: 60vh;
+}
+
+.height-a {
+	height: auto;
+}
+
+.width {
+	width: 1vw;
+}
+
+.font-10 { 
+  font-size: 1.0vh;
+}
+
+.font-20 {
+  font-size: 2.0vh;
+}
+
+.font-25 {
+  font-size: 2.5vh;
+}
+
+.font-30 {
+  font-size: 3.0vh;
+}
+
+.font-35 {
+  font-size: 3.5vh;
+}
+
+.font-90 {
+  font-size: 9vmin;
+}
+
+.font-a {
+	font-size: 100%;
+}
+
+.font-b {
+	font-size: 200%;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.blank {
+	width: 5%;
+}
