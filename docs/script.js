@@ -201,6 +201,9 @@ function findMyPersonal(){
 	}
 }
 
+function gijil(){
+	location.replace("index3.html");
+}
 setBackgroundColor();
 show();
 
